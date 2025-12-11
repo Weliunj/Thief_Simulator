@@ -110,6 +110,9 @@ namespace StarterAssets
         public GameObject lightD;
         public GameObject[] audioSource;
 
+        public bool doublejump = false;
+        public float timeacces = 1.5f;
+
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
 #endif
@@ -143,7 +146,7 @@ namespace StarterAssets
                 _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
             }
         }
-
+    
         private void Start()
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -402,7 +405,10 @@ namespace StarterAssets
                 transform.position.z);
             Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers,
                 QueryTriggerInteraction.Ignore);
-
+            if(timeacces > 0)
+            {
+                timeacces -= Time.deltaTime;
+            }
             // update animator if using character
             if (_hasAnimator)
             {
@@ -484,6 +490,7 @@ namespace StarterAssets
                 targetSpeed = isSprintingAllowed ? player._SprintSpeed : player._MoveSpeed;
             }
             // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
+
 
             WeightCacul();
             // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
