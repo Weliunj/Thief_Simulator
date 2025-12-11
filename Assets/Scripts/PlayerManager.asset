@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
   isDied: 0
   MoveSpeed: 2
-  SprintSpeed: 7.3
+  SprintSpeed: 8
   MaxStamina: 10
   Maxweight: 100
   currweight: 0
