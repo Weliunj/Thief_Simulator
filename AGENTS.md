@@ -6,9 +6,9 @@
   - Tags:
     - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, CinemachineTarget, kid, adult, item, home
   - Layers:
-    - Default, TransparentFX, Ignore Raycast, Player, Water, UI, Obj, Ground, item
+    - Default, TransparentFX, Ignore Raycast, Player, Water, UI, Obj, Ground, item, PostProcessing
 - Active game object:
-  - Name: PlayerArmature
-  - Tag: Player
-  - Layer: Player
+  - Name: Global Volume
+  - Tag: Untagged
+  - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

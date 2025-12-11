@@ -1,0 +1,10 @@
+- Anti-aliasing (Khử răng cưa): Khi bạn thấy các đường chéo hoặc đường cong bị "răng cưa" (như cầu thang gạch), chức năng này sẽ làm chúng mượt mà, không còn lởm chởm nữa.
+- Ambient Occlusion (Đổ bóng môi trường): Khi hai bức tường gặp nhau, hoặc một vật thể nằm trên mặt đất, chức năng này sẽ thêm một vệt bóng tối mềm mại vào chỗ tiếp xúc đó, làm hình ảnh có độ sâu và "nặng" hơn.
+- Screen Space Reflections (Phản xạ không gian màn hình): Nếu có một vũng nước hoặc sàn nhà bóng loáng, bạn sẽ thấy hình ảnh của môi trường xung quanh (cây cối, tường...) phản chiếu trên bề mặt đó.
+- Depth of Field (Độ sâu trường ảnh): Khi bạn tập trung vào một vật thể (ví dụ: khẩu súng của nhân vật), phần nền phía sau sẽ bị làm mờ đi, giống như khi bạn chụp ảnh chân dung bằng máy ảnh chuyên nghiệp.
+- Motion Blur (Làm mờ chuyển động): Khi bạn quay camera thật nhanh (hoặc nhân vật chạy nhanh), hình ảnh sẽ bị nhòe đi một chút. Điều này giúp mắt người dễ chịu hơn khi có chuyển động tốc độ cao.
+- Bloom (Phát sáng): Các nguồn sáng rất mạnh (như đèn pha, mặt trời, hoặc đèn neon) sẽ tạo ra một quầng sáng mờ rực rỡ xung quanh chúng, làm tăng hiệu ứng chói lóa.
+- Color Grading (Chỉnh màu): Thay đổi bộ lọc màu tổng thể của trò chơi. Ví dụ: Chuyển cảnh từ màu sắc tươi sáng sang màu xanh xám lạnh để tạo không khí u ám, kịch tính.
+- Vignette (Họa tiết góc): Các góc/viền xung quanh màn hình sẽ bị làm tối hoặc hơi mờ đi, giúp bạn tập trung sự chú ý vào chính giữa màn hình.
+- Chromatic Aberration (Sắc sai): Ở các cạnh màn hình, bạn sẽ thấy màu sắc của vật thể như bị tách ra thành viền xanh và đỏ mỏng, giống như lỗi nhỏ của một ống kính cũ.
+- Lens Distortion (Méo ống kính): Khiến hình ảnh cong vênh (ví dụ: phình ra ở giữa hoặc lõm vào), giống như nhìn qua mắt cá hoặc cửa sổ bằng kính cong.
