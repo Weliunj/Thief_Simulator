@@ -146,6 +146,8 @@ namespace StarterAssets
 
         private void Start()
         {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             characterController = GetComponent<CharacterController>();
             StartCenter = characterController.center;
@@ -410,6 +412,12 @@ namespace StarterAssets
 
         private void CameraRotation()
         {
+            if(player.currpoint == player.totalpoint || player.isDied)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                return;
+            }
             // if there is an input and camera position is not fixed
             if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
             {

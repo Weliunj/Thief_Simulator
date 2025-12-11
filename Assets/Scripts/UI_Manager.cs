@@ -103,13 +103,14 @@ public class UI_Manager : MonoBehaviour
         GuidePanel.SetActive(toggle);
 
 
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene("Lv1");
-        }
-        if(Input.GetKeyDown(KeyCode.M))
-        {
-            SceneManager.LoadScene("HomeMenu");
-        }
+        
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene("Lv1");
+    }
+    public void Menu()
+    {
+        SceneManager.LoadScene("HomeMenu");
     }
 }
