@@ -6,7 +6,9 @@
         "UnityEditor.TestRunner",
         "PlayerTest",
         "Unity.InputSystem.TestFramework",
-        "Unity.InputSystem"
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -50,8 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Tests\Tests_PlayMode\Weight.cs" />
+    <Compile Include="Assets\Tests\Tests_PlayMode\Graphic.cs" />
     <Compile Include="Assets\Tests\Tests_PlayMode\Point.cs" />
     <Compile Include="Assets\Tests\Tests_PlayMode\UISuite.cs" />
+    <Compile Include="Assets\Tests\Tests_PlayMode\Audio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tests\Tests_PlayMode\Tests_PlayMode.asmdef" />
@@ -1100,8 +1102,9 @@
     <ProjectReference Include="PlayerTest.csproj" />
     <ProjectReference Include="Unity.InputSystem.TestFramework.csproj" />
     <ProjectReference Include="Unity.InputSystem.csproj" />
-    <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="Unity.TextMeshPro.csproj" />
     <ProjectReference Include="UnityEngine.UI.csproj" />
+    <ProjectReference Include="UnityEditor.UI.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
