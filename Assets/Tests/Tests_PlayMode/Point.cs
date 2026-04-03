@@ -24,9 +24,9 @@ public class PointTests
     [Test]
     public void TestOverMaxPoint()
     {
-        player.totalpoint = 600;
+        player.currpoint = 600;
         item.Price = 550f;
-        player.currpoint = (int)item.Price;
+        player.currpoint += (int)item.Price;
         Assert.AreEqual(700, player.currpoint);
     }
 

@@ -49,7 +49,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Tests\Tests_PlayMode\Weight.cs" />
     <Compile Include="Assets\Tests\Tests_PlayMode\Point.cs" />
+    <Compile Include="Assets\Tests\Tests_PlayMode\UISuite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tests\Tests_PlayMode\Tests_PlayMode.asmdef" />
@@ -1096,6 +1098,8 @@
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
     <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="PlayerTest.csproj" />
+    <ProjectReference Include="Unity.InputSystem.TestFramework.csproj" />
+    <ProjectReference Include="Unity.InputSystem.csproj" />
     <ProjectReference Include="UnityEditor.UI.csproj" />
     <ProjectReference Include="UnityEngine.UI.csproj" />
   </ItemGroup>
