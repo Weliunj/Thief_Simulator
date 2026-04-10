@@ -5,7 +5,8 @@ using UnityEngine.AI;
 public class AI_Move_NavMesh : MonoBehaviour
 {
     public enum MovementState { RandomMove, Stationary, Patrol }
-
+    
+    public static int activeChasingAIs = 0; // Static counter for active chasing AIs
     // =========================================================================
     // BIẾN STATIC TOÀN CỤC CHO NHẠC CHASE (QUAN TRỌNG: Đảm bảo chỉ 1 AudioSource phát)
     public static bool isChaseMusicPlaying = false; 
@@ -466,25 +467,38 @@ public class AI_Move_NavMesh : MonoBehaviour
     public void HandleChaseMusic(bool shouldPlay)
     {
         if (audioSources.Length < 3 || audioSources[2] == null) return;
-
+        
         if (shouldPlay)
         {
-            if (!isChaseMusicPlaying)
+            // Increment the counter for AIs currently chasing
+            // This ensures music plays as long as at least one AI is chasing
+            AI_Move_NavMesh.activeChasingAIs++;
+
+            // Only start music if this is the first AI to initiate a chase
+            if (AI_Move_NavMesh.activeChasingAIs == 1)
             {
                 audioSources[2].loop = true;
                 if (!audioSources[2].isPlaying)
                 {
                     audioSources[2].Play();
                 }
-                isChaseMusicPlaying = true;
+                AI_Move_NavMesh.isChaseMusicPlaying = true; // Update the boolean flag
                 Debug.Log("Chase Music Started by: " + gameObject.name);
             }
         }
         else 
         {
-             audioSources[2].Stop();
-             isChaseMusicPlaying = false; 
-             Debug.Log("Chase Music Stopped by: " + gameObject.name);
+            // Decrement the counter
+            AI_Move_NavMesh.activeChasingAIs--;
+            AI_Move_NavMesh.activeChasingAIs = Mathf.Max(0, AI_Move_NavMesh.activeChasingAIs); // Prevent negative values
+
+            // Only stop music if no AIs are chasing anymore
+            if (AI_Move_NavMesh.activeChasingAIs == 0)
+            {
+                audioSources[2].Stop();
+                AI_Move_NavMesh.isChaseMusicPlaying = false; // Update the boolean flag
+                Debug.Log("Chase Music Stopped by: " + gameObject.name);
+            }
         }
     }
     private void OnDrawGizmosSelected()

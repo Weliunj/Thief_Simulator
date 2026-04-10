@@ -685,8 +685,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Generation\Targets\BuiltIn\Editor\ShaderGraph\Targets\BuiltInCanvasSubTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Interfaces\IMayRequireTransform.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Math\Vector\ReflectionNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Legacy\SpriteUnlitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Input\PropertyNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Legacy\SpriteUnlitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Channel\FlipNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Drawing\Inspector\PropertyDrawers\PositionNodePropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@f80b792d4861\Editor\Data\Nodes\Input\Scene\ScreenNode.cs" />
@@ -1463,6 +1463,10 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@19a841221620\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">

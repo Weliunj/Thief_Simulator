@@ -122,8 +122,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\Utility\InspectorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\PropertyDrawers\CameraTargetPropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\SaveDuringPlay\SaveDuringPlay.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\Editors\CinemachineMixingCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\Editors\CinemachineThirdPersonFollowEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\Editors\CinemachineMixingCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\Windows\CinemachineSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\Editors\CinemachineExtensionEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@5342685532bb\Editor\PropertyDrawers\GroupTargetPropertyDrawer.cs" />
@@ -756,6 +756,10 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@19a841221620\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">

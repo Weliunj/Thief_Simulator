@@ -25191,9 +25191,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 445844139428187291, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 726101425474679868, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
       propertyPath: m_Name
       value: Ui
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401176752817614650, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3532931234833485685, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
       propertyPath: m_Camera
@@ -25202,6 +25210,10 @@ PrefabInstance:
     - target: {fileID: 4865600179295624270, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578548893582197528, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7176486146439439115, guid: ee0c52a26f0e665448e624c5f3a05c75, type: 3}
       propertyPath: m_Pivot.x

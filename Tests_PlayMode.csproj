@@ -54,6 +54,7 @@
     <Compile Include="Assets\Tests\Tests_PlayMode\Point.cs" />
     <Compile Include="Assets\Tests\Tests_PlayMode\UISuite.cs" />
     <Compile Include="Assets\Tests\Tests_PlayMode\Audio.cs" />
+    <Compile Include="Assets\Tests\Tests_PlayMode\GameLogic_PlayMode_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tests\Tests_PlayMode\Tests_PlayMode.asmdef" />

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>4/3/2026 - 4:22:24 PM</Generatedon>
+    <Generatedon>4/10/2026 - 6:12:58 PM</Generatedon>
     <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
     <Assemblies>9</Assemblies>
-    <Classes>256</Classes>
-    <Files>108</Files>
-    <Coveredlines>240</Coveredlines>
-    <Uncoveredlines>19845</Uncoveredlines>
-    <Coverablelines>20085</Coverablelines>
-    <Totallines>39645</Totallines>
-    <Linecoverage>1.1</Linecoverage>
+    <Classes>257</Classes>
+    <Files>109</Files>
+    <Coveredlines>922</Coveredlines>
+    <Uncoveredlines>19244</Uncoveredlines>
+    <Coverablelines>20166</Coverablelines>
+    <Totallines>39825</Totallines>
+    <Linecoverage>4.5</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
-    <Coveredmethods>34</Coveredmethods>
-    <Totalmethods>2194</Totalmethods>
-    <Methodcoverage>1.5</Methodcoverage>
+    <Coveredmethods>90</Coveredmethods>
+    <Totalmethods>2202</Totalmethods>
+    <Methodcoverage>4</Methodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="Assembly-CSharp" classes="22" coverage="0.6" coveredlines="6" coverablelines="910" totallines="1789" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="156" methodcoverage="1.9">
-      <Class name="BasicRigidBodyPush" coverage="7.6" coveredlines="1" coverablelines="13" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
-      <Class name="Benjathemaker.SimpleGemsAnim" coverage="0" coveredlines="0" coverablelines="45" totallines="81" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+    <Assembly name="Assembly-CSharp" classes="22" coverage="2.7" coveredlines="25" coverablelines="910" totallines="1789" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="156" methodcoverage="3.8">
+      <Class name="BasicRigidBodyPush" coverage="61.5" coveredlines="8" coverablelines="13" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="Benjathemaker.SimpleGemsAnim" coverage="26.6" coveredlines="12" coverablelines="45" totallines="81" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="4" methodcoverage="25" />
       <Class name="DavidJalbert.LowPolyPeople.AnimationController" coverage="0" coveredlines="0" coverablelines="37" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="7" methodcoverage="0" />
       <Class name="Door" coverage="38.4" coveredlines="5" coverablelines="13" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="4" methodcoverage="50" />
       <Class name="DynamicJoystick" coverage="0" coveredlines="0" coverablelines="24" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="7" methodcoverage="0" />
@@ -208,42 +208,43 @@
       <Class name="Fusion.Editor.WarnIfAttributeDrawer" coverage="0" coveredlines="0" coverablelines="6" totallines="15150" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
       <Class name="Fusion.Statistics.FusionStatisticsEditor" coverage="0" coveredlines="0" coverablelines="16" totallines="15150" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
     </Assembly>
-    <Assembly name="PlayerTest" classes="24" coverage="5.1" coveredlines="108" coverablelines="2090" totallines="3728" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="15" totalmethods="145" methodcoverage="10.3">
-      <Class name="AI_Move_NavMesh" coverage="0" coveredlines="0" coverablelines="377" totallines="602" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="19" methodcoverage="0" />
+    <Assembly name="PlayerTest" classes="24" coverage="40.3" coveredlines="849" coverablelines="2103" totallines="3757" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="77" totalmethods="145" methodcoverage="53.1">
+      <Class name="AI_Move_NavMesh" coverage="48.5" coveredlines="186" coverablelines="383" totallines="616" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="14" totalmethods="19" methodcoverage="73.6" />
       <Class name="Done_CutScene" coverage="0" coveredlines="0" coverablelines="5" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="DoorMath" coverage="0" coveredlines="0" coverablelines="111" totallines="189" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="9" methodcoverage="0" />
-      <Class name="Flashlight" coverage="0" coveredlines="0" coverablelines="22" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="GameSettings" coverage="0" coveredlines="0" coverablelines="5" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="HomeMenu" coverage="89.7" coveredlines="35" coverablelines="39" totallines="90" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="7" methodcoverage="85.7" />
-      <Class name="Item" coverage="11.7" coveredlines="2" coverablelines="17" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
+      <Class name="DoorMath" coverage="9.9" coveredlines="11" coverablelines="111" totallines="189" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="9" methodcoverage="33.3" />
+      <Class name="Flashlight" coverage="59" coveredlines="13" coverablelines="22" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="GameSettings" coverage="100" coveredlines="5" coverablelines="5" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="HomeMenu" coverage="0" coveredlines="0" coverablelines="46" totallines="105" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="7" methodcoverage="0" />
+      <Class name="Item" coverage="52.9" coveredlines="9" coverablelines="17" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
       <Class name="ItemLibrary" coverage="0" coveredlines="0" coverablelines="29" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
-      <Class name="ItemSpawner" coverage="0" coveredlines="0" coverablelines="97" totallines="158" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
-      <Class name="Kid" coverage="0" coveredlines="0" coverablelines="207" totallines="307" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="9" methodcoverage="0" />
-      <Class name="Ladder" coverage="0" coveredlines="0" coverablelines="43" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+      <Class name="ItemSpawner" coverage="3" coveredlines="3" coverablelines="97" totallines="158" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="5" methodcoverage="20" />
+      <Class name="Kid" coverage="53.6" coveredlines="111" coverablelines="207" totallines="307" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="9" methodcoverage="88.8" />
+      <Class name="Ladder" coverage="30.2" coveredlines="13" coverablelines="43" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
       <Class name="NavMeshHelper" coverage="0" coveredlines="0" coverablelines="8" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
       <Class name="PlayerController" coverage="0" coveredlines="0" coverablelines="10" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
       <Class name="PlayerManager" coverage="100" coveredlines="20" coverablelines="20" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
-      <Class name="PostProcess" coverage="0" coveredlines="0" coverablelines="43" totallines="88" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
-      <Class name="Pov_mode" coverage="0" coveredlines="0" coverablelines="39" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="PostProcess" coverage="79" coveredlines="34" coverablelines="43" totallines="88" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="6" methodcoverage="83.3" />
+      <Class name="Pov_mode" coverage="56.4" coveredlines="22" coverablelines="39" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="QuestionData" coverage="0" coveredlines="0" coverablelines="6" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="Questions" coverage="0" coveredlines="0" coverablelines="55" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="Range_Interaction" coverage="0" coveredlines="0" coverablelines="70" totallines="139" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="7" methodcoverage="0" />
-      <Class name="SetItem" coverage="0" coveredlines="0" coverablelines="124" totallines="241" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="8" methodcoverage="0" />
-      <Class name="Skip_Cutscene" coverage="62.5" coveredlines="5" coverablelines="8" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="Questions" coverage="1.8" coveredlines="1" coverablelines="55" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="2" methodcoverage="50" />
+      <Class name="Range_Interaction" coverage="50" coveredlines="35" coverablelines="70" totallines="139" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="7" methodcoverage="57.1" />
+      <Class name="SetItem" coverage="72.5" coveredlines="90" coverablelines="124" totallines="241" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="8" methodcoverage="100" />
+      <Class name="Skip_Cutscene" coverage="0" coveredlines="0" coverablelines="8" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
       <Class name="StarterAssets.StarterAssetsInputs" coverage="8.3" coveredlines="3" coverablelines="36" totallines="84" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="11" methodcoverage="9" />
-      <Class name="StarterAssets.ThirdPersonController" coverage="9.1" coveredlines="43" coverablelines="468" totallines="833" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="21" methodcoverage="14.2" />
-      <Class name="UI_Manager" coverage="0" coveredlines="0" coverablelines="251" totallines="417" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="12" methodcoverage="0" />
+      <Class name="StarterAssets.ThirdPersonController" coverage="42" coveredlines="197" coverablelines="468" totallines="833" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="15" totalmethods="21" methodcoverage="71.4" />
+      <Class name="UI_Manager" coverage="38.2" coveredlines="96" coverablelines="251" totallines="417" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="12" methodcoverage="33.3" />
     </Assembly>
-    <Assembly name="Tests_PlayMode" classes="5" coverage="99" coveredlines="102" coverablelines="103" totallines="234" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="13" totalmethods="13" methodcoverage="100">
-      <Class name="AudioTest" coverage="100" coveredlines="13" coverablelines="13" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="Graphic" coverage="100" coveredlines="13" coverablelines="13" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="PointTests" coverage="96.2" coveredlines="26" coverablelines="27" totallines="57" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
-      <Class name="UISuite" coverage="100" coveredlines="17" coverablelines="17" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="Weight" coverage="100" coveredlines="33" coverablelines="33" totallines="74" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+    <Assembly name="Tests_PlayMode" classes="6" coverage="8.1" coveredlines="14" coverablelines="171" totallines="385" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="21" methodcoverage="9.5">
+      <Class name="AudioTest" coverage="22.5" coveredlines="14" coverablelines="62" totallines="131" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="6" methodcoverage="33.3" />
+      <Class name="GameLogic_PlayMode_Tests" coverage="0" coveredlines="0" coverablelines="19" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
+      <Class name="Graphic" coverage="0" coveredlines="0" coverablelines="13" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="PointTests" coverage="0" coveredlines="0" coverablelines="27" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="UISuite" coverage="0" coveredlines="0" coverablelines="17" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="Weight" coverage="0" coveredlines="0" coverablelines="33" totallines="74" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
     </Assembly>
-    <Assembly name="Unity.AI.Navigation.Samples" classes="18" coverage="0" coveredlines="0" coverablelines="489" totallines="938" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="59" methodcoverage="0">
+    <Assembly name="Unity.AI.Navigation.Samples" classes="18" coverage="2" coveredlines="10" coverablelines="489" totallines="938" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="59" methodcoverage="3.3">
       <Class name="AgentSpeedController" coverage="0" coveredlines="0" coverablelines="34" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="Unity.AI.Navigation.Samples.AgentLinkMover" coverage="0" coveredlines="0" coverablelines="54" totallines="87" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
+      <Class name="Unity.AI.Navigation.Samples.AgentLinkMover" coverage="18.5" coveredlines="10" coverablelines="54" totallines="87" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="5" methodcoverage="40" />
       <Class name="Unity.AI.Navigation.Samples.ClickToMove" coverage="0" coveredlines="0" coverablelines="12" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
       <Class name="Unity.AI.Navigation.Samples.Despawner" coverage="0" coveredlines="0" coverablelines="3" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
       <Class name="Unity.AI.Navigation.Samples.DestroyOnTrigger" coverage="0" coveredlines="0" coverablelines="5" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />

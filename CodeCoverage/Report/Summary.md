@@ -1,27 +1,27 @@
 ﻿# Summary
 |||
 |:---|:---|
-| Generated on: | 4/3/2026 - 4:22:22 PM |
+| Generated on: | 4/10/2026 - 6:12:55 PM |
 | Parser: | MultiReportParser (2x OpenCoverParser) |
 | Assemblies: | 9 |
-| Classes: | 256 |
-| Files: | 108 |
-| Covered lines: | 240 |
-| Uncovered lines: | 19845 |
-| Coverable lines: | 20085 |
-| Total lines: | 39645 |
-| Line coverage: | 1.1% (240 of 20085) |
+| Classes: | 257 |
+| Files: | 109 |
+| Covered lines: | 922 |
+| Uncovered lines: | 19244 |
+| Coverable lines: | 20166 |
+| Total lines: | 39825 |
+| Line coverage: | 4.5% (922 of 20166) |
 | Covered branches: | 0 |
 | Total branches: | 0 |
-| Covered methods: | 34 |
-| Total methods: | 2194 |
-| Method coverage: | 1.5% (34 of 2194) |
+| Covered methods: | 90 |
+| Total methods: | 2202 |
+| Method coverage: | 4% (90 of 2202) |
 
 |**Name**|**Covered**|**Uncovered**|**Coverable**|**Total**|**Line coverage**|**Covered**|**Total**|**Branch coverage**|**Covered**|**Total**|**Method coverage**|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|**Assembly-CSharp**|**6**|**904**|**910**|**1789**|**0.6%**|**0**|**0**|****|**3**|**156**|**1.9%**|
-|BasicRigidBodyPush|1|12|13|35|7.6%|0|0||1|3|33.3%|
-|Benjathemaker.SimpleGemsAnim|0|45|45|81|0%|0|0||0|4|0%|
+|**Assembly-CSharp**|**25**|**885**|**910**|**1789**|**2.7%**|**0**|**0**|****|**6**|**156**|**3.8%**|
+|BasicRigidBodyPush|8|5|13|35|61.5%|0|0||3|3|100%|
+|Benjathemaker.SimpleGemsAnim|12|33|45|81|26.6%|0|0||1|4|25%|
 |DavidJalbert.LowPolyPeople.AnimationController|0|37|37|65|0%|0|0||0|7|0%|
 |Door|5|8|13|29|38.4%|0|0||2|4|50%|
 |DynamicJoystick|0|24|24|41|0%|0|0||0|7|0%|
@@ -205,40 +205,41 @@
 |Fusion.Editor.UnityResourcePathAttributeDrawer|0|26|26|15150|0%|0|0||0|1|0%|
 |Fusion.Editor.WarnIfAttributeDrawer|0|6|6|15150|0%|0|0||0|6|0%|
 |Fusion.Statistics.FusionStatisticsEditor|0|16|16|15150|0%|0|0||0|1|0%|
-|**PlayerTest**|**108**|**1982**|**2090**|**3728**|**5.1%**|**0**|**0**|****|**15**|**145**|**10.3%**|
-|AI_Move_NavMesh|0|377|377|602|0%|0|0||0|19|0%|
+|**PlayerTest**|**849**|**1254**|**2103**|**3757**|**40.3%**|**0**|**0**|****|**77**|**145**|**53.1%**|
+|AI_Move_NavMesh|186|197|383|616|48.5%|0|0||14|19|73.6%|
 |Done_CutScene|0|5|5|17|0%|0|0||0|2|0%|
-|DoorMath|0|111|111|189|0%|0|0||0|9|0%|
-|Flashlight|0|22|22|47|0%|0|0||0|2|0%|
-|GameSettings|0|5|5|20|0%|0|0||0|1|0%|
-|HomeMenu|35|4|39|90|89.7%|0|0||6|7|85.7%|
-|Item|2|15|17|31|11.7%|0|0||1|3|33.3%|
+|DoorMath|11|100|111|189|9.9%|0|0||3|9|33.3%|
+|Flashlight|13|9|22|47|59%|0|0||2|2|100%|
+|GameSettings|5|0|5|20|100%|0|0||1|1|100%|
+|HomeMenu|0|46|46|105|0%|0|0||0|7|0%|
+|Item|9|8|17|31|52.9%|0|0||2|3|66.6%|
 |ItemLibrary|0|29|29|57|0%|0|0||0|5|0%|
-|ItemSpawner|0|97|97|158|0%|0|0||0|5|0%|
-|Kid|0|207|207|307|0%|0|0||0|9|0%|
-|Ladder|0|43|43|72|0%|0|0||0|4|0%|
+|ItemSpawner|3|94|97|158|3%|0|0||1|5|20%|
+|Kid|111|96|207|307|53.6%|0|0||8|9|88.8%|
+|Ladder|13|30|43|72|30.2%|0|0||3|4|75%|
 |NavMeshHelper|0|8|8|19|0%|0|0||0|1|0%|
 |PlayerController|0|10|10|24|0%|0|0||0|3|0%|
 |PlayerManager|20|0|20|36|100%|0|0||2|2|100%|
-|PostProcess|0|43|43|88|0%|0|0||0|6|0%|
-|Pov_mode|0|39|39|67|0%|0|0||0|3|0%|
+|PostProcess|34|9|43|88|79%|0|0||5|6|83.3%|
+|Pov_mode|22|17|39|67|56.4%|0|0||3|3|100%|
 |QuestionData|0|6|6|85|0%|0|0||0|1|0%|
-|Questions|0|55|55|85|0%|0|0||0|2|0%|
-|Range_Interaction|0|70|70|139|0%|0|0||0|7|0%|
-|SetItem|0|124|124|241|0%|0|0||0|8|0%|
-|Skip_Cutscene|5|3|8|20|62.5%|0|0||2|2|100%|
+|Questions|1|54|55|85|1.8%|0|0||1|2|50%|
+|Range_Interaction|35|35|70|139|50%|0|0||4|7|57.1%|
+|SetItem|90|34|124|241|72.5%|0|0||8|8|100%|
+|Skip_Cutscene|0|8|8|20|0%|0|0||0|2|0%|
 |StarterAssets.StarterAssetsInputs|3|33|36|84|8.3%|0|0||1|11|9%|
-|StarterAssets.ThirdPersonController|43|425|468|833|9.1%|0|0||3|21|14.2%|
-|UI_Manager|0|251|251|417|0%|0|0||0|12|0%|
-|**Tests_PlayMode**|**102**|**1**|**103**|**234**|**99%**|**0**|**0**|****|**13**|**13**|**100%**|
-|AudioTest|13|0|13|31|100%|0|0||1|1|100%|
-|Graphic|13|0|13|33|100%|0|0||1|1|100%|
-|PointTests|26|1|27|57|96.2%|0|0||5|5|100%|
-|UISuite|17|0|17|39|100%|0|0||1|1|100%|
-|Weight|33|0|33|74|100%|0|0||5|5|100%|
-|**Unity.AI.Navigation.Samples**|**0**|**489**|**489**|**938**|**0%**|**0**|**0**|****|**0**|**59**|**0%**|
+|StarterAssets.ThirdPersonController|197|271|468|833|42%|0|0||15|21|71.4%|
+|UI_Manager|96|155|251|417|38.2%|0|0||4|12|33.3%|
+|**Tests_PlayMode**|**14**|**157**|**171**|**385**|**8.1%**|**0**|**0**|****|**2**|**21**|**9.5%**|
+|AudioTest|14|48|62|131|22.5%|0|0||2|6|33.3%|
+|GameLogic_PlayMode_Tests|0|19|19|49|0%|0|0||0|3|0%|
+|Graphic|0|13|13|33|0%|0|0||0|1|0%|
+|PointTests|0|27|27|59|0%|0|0||0|5|0%|
+|UISuite|0|17|17|39|0%|0|0||0|1|0%|
+|Weight|0|33|33|74|0%|0|0||0|5|0%|
+|**Unity.AI.Navigation.Samples**|**10**|**479**|**489**|**938**|**2%**|**0**|**0**|****|**2**|**59**|**3.3%**|
 |AgentSpeedController|0|34|34|64|0%|0|0||0|4|0%|
-|Unity.AI.Navigation.Samples.AgentLinkMover|0|54|54|87|0%|0|0||0|5|0%|
+|Unity.AI.Navigation.Samples.AgentLinkMover|10|44|54|87|18.5%|0|0||2|5|40%|
 |Unity.AI.Navigation.Samples.ClickToMove|0|12|12|30|0%|0|0||0|3|0%|
 |Unity.AI.Navigation.Samples.Despawner|0|3|3|17|0%|0|0||0|1|0%|
 |Unity.AI.Navigation.Samples.DestroyOnTrigger|0|5|5|18|0%|0|0||0|2|0%|
